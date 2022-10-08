@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    background: white;
+    height: 100vh;
+}
+.hover-test:hover{
+    background-image:linear-gradient(to right, rgba(118,23,141,1), rgba(92,72,160,1));
+}
+.header-properties{
+    height: 200px;
+}
+.header-img{
+   height: 100%;
+}
+.search-container {
+    float: right;
+  }
+  
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background-image: linear-gradient(to right, rgba(118,23,141,1), rgba(92,72,160,1));
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+.search-container button:hover {
+    background: #ccc;
+  }
+  
+
+  /** Aca coloco estilos segundo espacio**/
+
+.primera{
+    background-color:white; 
+    height: 80px;
+  }
+.segunda{
+  background-color:  rgb(170, 145, 171);
+  height: 90px;
+  border: 1px rgb(251, 222, 252) solid;
+  text-align: center;
+  padding: 15px;
+  margin: 30px;
+}
+h2{
+  color: white;
+  text-align: center;
+}
+/** Aca coloco estilos tercer espacio**/
+
+.redes {
+  background-image:linear-gradient(to right, rgba(118,23,141,1), rgba(92,72,160,1));
+  height: 500px;
+}
+.videos{
+  background-color: rgb(170, 145, 171);
+  height: 500px;
+}
+.foto{
+  background-color: white;
+  height: 500px;
+}
+/* Aca coloco estilos cuarto espacio*/
+
+.vacia{
+  background-color: white;
+  height: 200px;
+}
+.boton1{
+  background-image:linear-gradient(to right, rgba(118,23,141,1), rgba(92,72,160,1));
+  height: 200px;
+  text-align: center;
+  padding: 60px;
+}
+.vacia2{
+  background-color: white;
+  height: 200px;
+}
+.boton2{
+  background-image:linear-gradient(to right, rgba(118,23,141,1), rgba(92,72,160,1));
+  height: 200px;
+  padding: 50px;
+  text-align: center;
+
+}
+.vacia3{
+  background-color: white;
+  height: 200px;
+}
+.foto1{
+    display: flex;
+    justify-content: center;
+}
+/** Estilos.mis proyectos segunda pagina**/
+.sola{
+  background-color: aqua;
+  height: 100px;
+}
+.misproyectosb{
+  background-color: blue;
+height: 100px;
+}
+.proyectos{
+  background-color: bisque;
+  height: 600px;
+}
+.footer{
+  background-image:linear-gradient(to right, rgba(118,23,141,1), rgba(92,72,160,1)) ;
+  height: 100px;
+}
+
+
+
+
+/**COLORES HTML
+B693AF-color morado claro
+ background-image: linear-gradient(to right, rgba(118,23,141,0), rgba(92,72,160,1)); color degradado morado
+**/
